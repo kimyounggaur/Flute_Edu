@@ -1,0 +1,14 @@
+node_modules/
+dist/
+coverage/
+
+01 Source/
+docs/
+flute-musical-instrument-icons-set/
+large-soprano-flute-wind/
+realistic-3d-detailed-classical-flute/
+
+*.log
+*.tsbuildinfo
+*.md
+!README.md
