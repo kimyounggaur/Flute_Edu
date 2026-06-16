@@ -12,3 +12,6 @@ pnpm-debug.log*
 Thumbs.db
 .worktrees/
 worktrees/
+.vercel/
+
+.vercel
