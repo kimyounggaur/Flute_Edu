@@ -8,9 +8,9 @@ describe("FluteDiagram", () => {
     render(<FluteDiagram pressed={["thumbB", "lh1", "lh2", "lh3", "eb"]} showLabels />);
 
     expect(screen.getByLabelText("왼손 엄지 B 키 눌림")).toHaveAttribute("aria-pressed", "true");
-    expect(screen.getByLabelText("왼손 검지 눌림")).toHaveAttribute("aria-pressed", "true");
-    expect(screen.getByLabelText("오른손 새끼 E♭ 키 눌림")).toHaveAttribute("aria-pressed", "true");
-    expect(screen.getByLabelText("오른손 검지 열림")).toHaveAttribute("aria-pressed", "false");
+    expect(screen.getByLabelText("왼손 검지 키 눌림")).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByLabelText("오른손 새끼 E플랫 레버 눌림")).toHaveAttribute("aria-pressed", "true");
+    expect(screen.getByLabelText("오른손 검지 키 열림")).toHaveAttribute("aria-pressed", "false");
   });
 
   it("exposes expanded transparent hitboxes for mobile taps", () => {
